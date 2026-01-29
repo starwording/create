@@ -3,23 +3,74 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
+  <title>K-Drama Blog Post</title>
   <link href="/style.css" rel="stylesheet">
 </head>
 <body>
   <main class="page">
-    <header class="topbar">
-      <div class="brand">Hello World</div>
-      <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode">
-        <span class="theme-toggle__icon" aria-hidden="true">☀</span>
-        <span class="theme-toggle__text">Light</span>
-      </button>
-    </header>
+    <section class="video-hero">
+      <div class="video-embed" aria-label="Embedded YouTube video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/avsdgBmc2bY?autoplay=1&mute=1&rel=0&si=s6Ib_w-ouTvCWMse"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="source-note">
+        Source (embedded via YouTube):
+        <a href="https://www.youtube.com/watch?v=avsdgBmc2bY&list=PLpCe-ZpPSvrv2fvxEd3VhWqUlqT7bXobu&index=68" target="_blank" rel="noreferrer">
+          https://www.youtube.com/watch?v=avsdgBmc2bY
+        </a>
+      </div>
+    </section>
 
-    <section class="hero">
-      <h1>Hello, world!</h1>
-      <p>Welcome to your starter page. Toggle the theme to see it in action.</p>
-      <button class="cta" type="button" onclick="console.log('hello');">Press me</button>
+    <section class="post">
+      <header class="post__header">
+        <p class="eyebrow">K-DRAMA REVIEW</p>
+        <h1>Is This Love Translatable? (이 사랑 통역되나요)</h1>
+        <p class="dek">
+          A warm, dialogue-driven K-drama that leans into language, timing, and the tiny misunderstandings that can make two people feel miles apart.
+        </p>
+      </header>
+
+      <article class="post__body">
+        <h2>Why this drama is easy to share</h2>
+        <p>
+          The story moves in short, memorable beats: a chance meeting, a gentle misunderstanding, and a slow build of trust. Each scene is a small, shareable moment, which makes it ideal for quick clips, quotes, and reactions. The pacing invites conversation, and the theme of translation makes it universally relatable.
+        </p>
+
+        <h2>High-traffic talking points</h2>
+        <ul>
+          <li><strong>Language as romance:</strong> The drama treats translation as a love language, not just a tool.</li>
+          <li><strong>Small gestures, big meaning:</strong> Quiet scenes carry emotional weight without needing big twists.</li>
+          <li><strong>Cultural nuance:</strong> The story highlights how small cultural gaps create both tension and tenderness.</li>
+          <li><strong>Rewatch value:</strong> Early scenes read differently once you know the characters.</li>
+        </ul>
+
+        <h2>What viewers will likely search for</h2>
+        <p>
+          Expect interest around “best romantic K-dramas,” “translation love stories,” and “slow-burn recommendations.” The drama’s hook is instantly clear, which helps it travel well on social, especially with a strong opening clip (like the embedded video above).
+        </p>
+
+        <h2>Quick review</h2>
+        <p>
+          If you enjoy character-first storytelling and dialogue that feels real, this one is a great pick. It feels intimate without being small, and the emotional stakes build naturally from the way the two leads learn to understand each other.
+        </p>
+
+        <div class="cta-row">
+          <a class="cta" href="https://www.youtube.com/watch?v=avsdgBmc2bY&list=PLpCe-ZpPSvrv2fvxEd3VhWqUlqT7bXobu&index=68" target="_blank" rel="noreferrer">
+            Watch on YouTube
+          </a>
+          <button class="ghost" type="button" id="theme-toggle" aria-pressed="false">
+            Toggle theme
+          </button>
+        </div>
+      </article>
     </section>
   </main>
 

@@ -1,20 +1,13 @@
 const storageKey = 'theme-preference';
 const root = document.documentElement;
 const toggle = document.getElementById('theme-toggle');
-const icon = toggle?.querySelector('.theme-toggle__icon');
-const text = toggle?.querySelector('.theme-toggle__text');
 
 const applyTheme = (theme) => {
   root.setAttribute('data-theme', theme);
   const isDark = theme === 'dark';
   if (toggle) {
     toggle.setAttribute('aria-pressed', String(isDark));
-  }
-  if (icon) {
-    icon.textContent = isDark ? '🌙' : '☀';
-  }
-  if (text) {
-    text.textContent = isDark ? 'Dark' : 'Light';
+    toggle.textContent = isDark ? 'Light mode' : 'Dark mode';
   }
 };
 
