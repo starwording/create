@@ -249,6 +249,40 @@ body {
   gap: 12px;
 }
 
+.ad-slot {
+  border: 1px dashed var(--border);
+  border-radius: 16px;
+  padding: 18px;
+  text-align: center;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.6);
+  font-family: "Space Grotesk", "Trebuchet MS", sans-serif;
+  letter-spacing: 0.04em;
+}
+
+[data-theme="dark"] .ad-slot {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.ad-slot__label {
+  display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+}
+
+.ad-slot--leader {
+  margin: 12px 0 0;
+}
+
+.ad-slot--inline {
+  margin: 12px 0;
+}
+
+.ad-slot--footer {
+  margin: 12px 0 0;
+}
+
 .cta {
   text-decoration: none;
   border: none;
