@@ -1,0 +1,7 @@
+User-agent: Yeti
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://starwording.github.io/create/sitemap.xml
