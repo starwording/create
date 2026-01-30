@@ -1,0 +1,21 @@
+# llms.txt
+# Site: K-Culture Blog
+# Purpose: Curated K-pop and K-drama pages with official videos and brief summaries.
+# Base URL: https://create-88m.pages.dev/
+# Update cadence: Weekly
+# Copyright: No full lyrics or full scripts are hosted; only short excerpts.
+
+Key pages:
+- /index.html (Drama feature)
+- /squid-game.html
+- /crash-landing-on-you.html
+- /goblin.html
+- /jennie-mantra.html
+- /newjeans-how-sweet.html
+- /aespa-supernova.html
+
+Primary sources:
+- Official YouTube videos linked on each page
+- Linked news articles in the sidebar cards
+
+Contact: none
